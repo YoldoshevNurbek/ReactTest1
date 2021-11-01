@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 1440px;
+    position: absolute;
+    height: 75px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    margin: auto;
+}
+.container{
+    width: 1365px;
+    position: absolute;
+    height: 25px;
+    left: 2.6%;
+    right: 2.6%;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .shop .shop-link{
+    position: absolute;
+    height: 15px;
+    left: 1.83%;
+    right: 92.31%;
+    top: 2px;
+    top: calc(50% - 16px/2 + 1.5px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+header .container .shop .explore-link{
+    position: absolute;
+    height: 15px;
+    left: 11.21%;
+    right: 79.27%;
+    top: 2px;
+    top: calc(50% - 16px/2 + 1.5px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+header .container .vektor a{
+    width: 9,79px;
+}
+header .container .card a{
+    position: absolute;
+    width: 75px;
+    height: 16px;
+    right: 42.5px;
+    top: calc(50% - 16px/2 + 1.5px);
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+/* main start */
+main{
+    width: 1440px;
+    height: 504px;
+    background:url(./img/bg_main.png);
+    /* width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    margin: auto;
+    position: relative; 
+    height: 504px;
+    left: 0%;
+    right: 0%;
+    top: 75px;
+}
+/* main .container{
+    width: 1440px;
+} */
+main .main-info h1{
+    position: absolute;
+    width: 440px;
+    height: 46px;
+    left: calc(50% - 440px/2 + 0.46px);
+    top: 180px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 46px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+main .main-info p{
+    position: absolute;
+    width: 211px;
+    height: 18px;
+    left: calc(50% - 211px/2 - 0.04px);
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+}
+main .main-info a{
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    left: calc(50% - 95px/2 - 0.04px);
+    top:280px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+/* section start Design */
+.design{
+    width: 1440px;
+    margin: auto;
+    position: relative;
+}
+.design .container{
+    flex-direction: column;
+}
+.design .container .design-info{
+    width: 579,16px;
+    position: absolute;
+    height: 153px;
+    left: 29.89%;
+    right: 29.89%;
+    top: 181px;
+}
+.design .container .design-info h2{
+    width: 297px;
+    position: absolute;
+    width: 297px;
+    height: 58px;
+    left: calc(50% - 297px/2 + 0.5px);
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+.design .container .design-info p{
+    position: absolute;
+    width: 481px;
+    height: 24px;
+    left: calc(50% - 481px/2 - 0.5px);
+    top: 81px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+}
+.design .container .design-info a{
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: calc(50% - 100px/2);
+    top: 131px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.design .container .content{
+    display: flex;
+    justify-content: space-between;
+}
+.design .container .content .content-left{
+    width: 682,5px;
+    position: absolute;
+    height: 570.53px;
+    left: 1%;
+    right: 50%;
+    top: 0px;
+
+}
+.design .container .content .content-left img{
+    width: 658px;
+    position: absolute;
+    height: 441px;
+    left: 0%;
+    right: -0.08%;
+    top: 435px;
+    border-radius: 0px;
+}
+.design .container .content .content-left h6{
+    width: 128px;
+    position: absolute;
+    width: 128px;
+    height: 30px;
+    left: calc(50% - 128px/2 + 0.25px);
+    top: 920px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 30px;
+}
+.design .container .content .content-left a{
+    width: 110px;
+    position: absolute;
+    height: 15px;
+    left: calc(50% - 93px/2 - 16.25px);
+    top: 970px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+.design .container .content .content-right{
+    width: 682,5px;
+    position: absolute;
+    height: 570.53px;
+    left: 51%;
+    right: 0%;
+    top: 0px;
+}
+.design .container .content .content-right img{
+    width: 658px;
+    position: absolute;
+    height: 441px;
+    left: 0.08%;
+    right: -0.15%;
+    top: 435px;
+}
+.design .container .content .content-right h6{
+    width: 156px;
+    position: absolute;
+    height: 30px;
+    left: calc(50% - 128px/2 + 0.25px);
+    top: 920px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 30px;
+}
+.design .container .content .content-right a{
+    width: 110px;
+    position: absolute;
+    height: 15px;
+    left: calc(50% - 93px/2 - -6.75px);
+    top: 970px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+/* section start Product */
+.product {
+    position: absolute;
+    width: 1286.39px;
+    height: 69.59px;
+    left: calc(50% - 1286.39px/2 - 2.46px);
+    top: calc(50% - 69.59px/2 - 1074px);
+}
+.product .product-info h2{
+    position: absolute;
+    width: 276px;
+    height: 36px;
+    left: calc(50% - 276px/2 + 0.46px);
+    top: -3.53px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 36px;
+    /* identical to box height, or 109% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
